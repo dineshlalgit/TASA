@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "TASA",
+    "slug": "TASA",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#55efc4"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.DBRAIT.hackathon"
+    },
+    "android": {
+      "package": "com.DBRAIT.hackathon",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDCd5c-NQ1Omd4A1nT_ZSk73Sct_78-KGQ"
+        }
+      }
+    },
+    "description": "This is develop for Saving the waste at Tourist Spot"
+  }
+}
